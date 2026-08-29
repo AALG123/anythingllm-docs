@@ -124,7 +124,8 @@
       "pagination": true,
       "toc": true
     }
-  },  "transcription-models": {
+  },
+  "transcription-models": {
     "title": "Transcription Models",
     "theme": {
       "breadcrumb": true,
