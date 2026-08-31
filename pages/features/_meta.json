@@ -126,7 +126,7 @@
     }
   },
   "transcription-models": {
-    "title": "Transcription Models",
+    "title": "Speech to Text (STT)",
     "theme": {
       "breadcrumb": true,
       "footer": true,

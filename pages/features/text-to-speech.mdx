@@ -52,21 +52,6 @@ The **OpenAI Compatible** provider connects AnythingLLM to any service that impl
 - **TTS Model**: the `model` parameter sent with each request
 - **Voice Model**: the voice identifier sent with each request
 
-#### Worked example
-
-Using [Gandr](https://gandr.ai), an OpenAI compatible text to speech API, as the example service:
-
-| Setting     | Value                                                        |
-| ----------- | ------------------------------------------------------------ |
-| Base URL    | `https://tts.gandr.ai/v1`                                    |
-| API Key     | your Gandr API key, created at [gandr.ai](https://gandr.ai)  |
-| TTS Model   | `tts-1`                                                      |
-| Voice Model | `gandr-mia`                                                  |
-
-Gandr's other voices are `gandr-ava`, `gandr-jenny`, `gandr-dane`, `gandr-leo`, and `gandr-lewis`. Save changes, then click the speaker icon on any chat response to hear it.
-
-The same four settings work for any other OpenAI compatible speech endpoint, hosted or self hosted.
-
 ## Environment Variables
 
 If you deploy AnythingLLM with Docker or bare metal and prefer to configure TTS through environment variables, these are the supported keys (from `docker/.env.example`):
